@@ -77,13 +77,16 @@ export default async function (config, callback) {
 			res();
 		};
 	})
-	video_element.play();
 
-	await new Promise(res => {
-		video_element.addEventListener(`ended`, () => {
-			res();
+	for (let loop_count = 0; loop_count < config.repeats + 1; ++loop_count) {
+		video_element.play();
+		await new Promise(res => {
+			video_element.addEventListener(`ended`, () => {
+				res();
+			});
 		});
-	});
+	}
+
 
 	screen.exit(`fade`, () => {
 		callback({}, []);

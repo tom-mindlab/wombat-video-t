@@ -4,8 +4,10 @@
 		"duration": 200,
 		"colour": "#212121"
 	},
+	"repeats": 1,
 	"prebuffer": false,
 	"src": {
+		"mp4": "https://i.imgur.com/RXDTqRD.mp4",
 		"ogv": "https://toosuite-public-resources.s3.amazonaws.com/Viviscal/Ad%20test%20Feb%202016/Viviscal_Version_3_Soft-SD.ogv",
 		"webm": "https://toosuite-public-resources.s3.amazonaws.com/Viviscal/Ad%20test%20Feb%202016/Viviscal_Version_3_Soft-SD.webm"
 	},
