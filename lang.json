@@ -1,0 +1,26 @@
+{
+    "default": {
+        "screens": {
+            "intro": {
+                "title": "NO TRANSLATION",
+                "message": "NO TRANSLATION",
+                "continue": {
+                    "pending": "NO TRANSLATION",
+                    "ready": "NO TRANSLATION"
+                }
+            }
+        }
+    },
+    "EN": {
+        "screens": {
+            "intro": {
+                "title": "Video",
+                "message": "Please watch the following video closely.",
+                "continue": {
+                    "pending": "Buffering...",
+                    "ready": "Begin"
+                }
+            }
+        }
+    }
+}

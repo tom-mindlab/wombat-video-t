@@ -1,0 +1,67 @@
+@import "~theme";
+.video-t {
+
+	// background-color: #482;
+
+	.fullscreen;
+
+	#screen {
+		text-align: center;
+		margin-top: 40vh;
+
+
+		/*
+			Styles the pause screen
+		*/
+		input[type='button'] {
+
+			border : 3px solid #999;
+			border-radius: 5px;
+			margin-bottom: 1em;
+
+			font-size : 1.5em;
+			padding: .5em;
+			background-color: #BBB;
+			color: white;
+
+			&:enabled {
+				background-color: @darkblue;
+				border : 3px solid @darkblue;
+			}   
+		}
+
+		#title { 
+
+			font-size: 2em;
+			color : @darkblue;
+			
+		}
+
+		#message {
+			border-bottom: 1px solid @lightgray;
+			margin-bottom: 1em;
+			padding-bottom: 1em;
+		}
+	}
+
+
+	#main {
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		height: 100%;
+
+
+		#player {
+			visibility: hidden;
+
+			max-width: 100%;
+			max-height: 100%;
+		}
+	}
+}
+
+

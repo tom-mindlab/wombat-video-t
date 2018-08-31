@@ -1,0 +1,14 @@
+{
+	"wombat_component": "video-t",
+	"background": {
+		"duration": 200,
+		"colour": "#212121"
+	},
+	"prebuffer": false,
+	"src": {
+		"ogv": "https://toosuite-public-resources.s3.amazonaws.com/Viviscal/Ad%20test%20Feb%202016/Viviscal_Version_3_Soft-SD.ogv",
+		"webm": "https://toosuite-public-resources.s3.amazonaws.com/Viviscal/Ad%20test%20Feb%202016/Viviscal_Version_3_Soft-SD.webm"
+	},
+	"language": "EN",
+	"language_options": {}
+}

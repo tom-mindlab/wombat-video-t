@@ -1,0 +1,42 @@
+{
+	"name": "video-t",
+	"description": "Plays a video",
+	"version": "0",
+	"start": "../../main.html",
+	"data": null,
+	"configuration": {
+		"type": "object",
+		"properties": {
+			"wombat_component": {
+				"enum": [
+					"video"
+				],
+				"default": "video"
+			},
+			"src": {
+				"type": "object",
+				"properties": {
+					"mp4": {
+						"type": "string",
+						"required": true
+					},
+					"ogv": {
+						"type": "string",
+						"required": true
+					},
+					"webm": {
+						"type": "string",
+						"required": true
+					}
+				}
+			}
+		}
+	},
+	"default_configuration": {
+		"src": {
+			"mp4": "https://toosuite-public-resources.s3.amazonaws.com/Viviscal/Ad%20test%20Feb%202016/Viviscal_Version%203_Soft-SD.mp4",
+			"ogv": "https://toosuite-public-resources.s3.amazonaws.com/Viviscal/Ad%20test%20Feb%202016/Viviscal_Version_3_Soft-SD.ogv",
+			"webm": "https://toosuite-public-resources.s3.amazonaws.com/Viviscal/Ad%20test%20Feb%202016/Viviscal_Version_3_Soft-SD.webm"
+		}
+	}
+}
